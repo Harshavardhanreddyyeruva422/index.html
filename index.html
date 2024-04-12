@@ -104,7 +104,7 @@
             // Perform calculation
             var pitchDiameter = numberOfTeeth / diametralPitch;
             var circularPitch = Math.PI / diametralPitch;
-            var module = 25.4 / diametralPitch;
+            var module = diametralPitch/numberOfTeeth;
             var pitchAngle = Math.atan(1 / diametralPitch) * (180 / Math.PI);
             var addendum = 1 / diametralPitch;
             var dedendum = 1.25 / diametralPitch;
